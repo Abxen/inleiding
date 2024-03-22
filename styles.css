@@ -1,0 +1,70 @@
+img {
+  width: 35em;
+  height: auto;  
+}
+
+  /*dit zorgt ervoor dat de gif boven de img geplaatst wordt
+  Het verlaat zijn ouders en is volledig uit de reguliere flow. 
+  De ballon wil ergens tegen aan zitten, maar het blokje van de gif
+  is uit de flow, dus de ballon schuift tegen health aan */
+#yippie {
+  position: absolute;
+}
+
+
+#progressie {
+  width: 100%;
+  background-color: rgb(251, 219, 230);
+  border-radius: 1em;
+
+}
+
+#bar {
+  width: 100%;
+  height: 30px;
+  background-color: pink;
+  border-radius: 1em;
+  border: 4px solid rgb(251, 219, 230);
+}
+
+
+
+h1{
+  border: 4px solid rgb(251, 219, 230);
+  background: pink;
+  padding: 0.5em;
+  width: 7em;
+  border-radius: 0.5em
+}
+
+
+
+h2{
+ border: 4px solid rgb(251, 219, 230);
+ background: pink;
+ padding: 0.5em;
+ width: 10em;
+ border-radius: 0.5em;
+}
+ 
+h3 {
+ border: 4px solid rgb(251, 219, 230);
+ background: pink;
+ padding: 0.5em;
+ width: 5em;
+ border-radius: 0.5em;
+}
+
+h3:hover {
+ border: 4px solid rgb(246, 219, 251);
+ background: rgb(212, 192, 255);
+}
+
+h4 {
+  border: 4px solid rgb(251, 219, 230);
+  background: pink;
+  padding: 0.5em;
+  width: 4em;
+  height: 1.5em;
+  border-radius: 0.5em;
+}
